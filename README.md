@@ -33,7 +33,7 @@ With practice, the learning gets progressively pushed towards lower layers of th
 
 
 - **[Multi-Character Chords](http://twiddler.tekgear.com/doc/doku.php?id=tuner_advanced)(MMC) increase cognitive load**  
-MMCs are tantalizing because they promise to deliver speed improvement. Exessive use of bi/trigrams requires conscious context-switches. 
+MMCs are tantalizing because they promise to deliver speed improvement. Exessive use of bi/trigrams requires conscious context-switches. Fingers are [faster](http://www.goodreads.com/book/show/7873438-sleights-of-mind) than your attention.
 
 
 
@@ -42,7 +42,7 @@ MMCs are tantalizing because they promise to deliver speed improvement. Exessive
 - use symmetry to facilitate learning
 - prefer chords with keys on the same column
 - reduce adjacent fingers on different columns
-- prefer comfortable 3-4 button chords over difficult 2 button chords
+- prefer [comfortable](http://ivanwfr.github.io/Twiddler3-Layout/#div_twiddler3_fingers_agility) 3-4 button chords over difficult 2 button chords
 - prefer chords that balance/stabilize a free rolling Twiddler in the palm 
 *(I use the Twiddler strapless)*
 - prefer MMC that approximate the chord configuration of its first character
