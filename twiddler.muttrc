@@ -3,4 +3,4 @@ bind pager o            previous-line
 bind pager r            next-line
 bind pager (            half-up
 bind pager )            half-down 
-bind pager a            reply   # answer
+bind pager a            group-reply   # answer
