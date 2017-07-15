@@ -1,0 +1,40 @@
+http://forum.tekgear.com/t/editing-with-vi/313
+
+**Tip:** type capital letters without touching CapsLock or Shift
+
+assign a chord with the following keystrokes  
+
+    <Escape>~a
+
+This sequence does the following:
+- switch from insert mode to command mode (this leaves the cursor on the previously type letter)
+- change the case of the letter
+- switch back to insert mode (continue to type)
+
+
+
+**Tip:** copy last word for later pasting
+
+assign a chord with the following keystrokes  
+
+    <Escape>yiw`.a
+
+This sequence does the following:
+- switch from insert mode to command mode (this leaves the cursor on the previously type letter)
+- copy the word just typed (yank inner word, cursor now on the first letter of the word copied)
+- return cursor to previous position
+- switch back to insert mode (continue to type)
+                 
+ *use `p` to paste when in command mode*.
+
+
+The copied word can also be stored in a named register.
+      
+    # copy last word into the register a:
+    <Escape>"ayiw`.a
+    
+    # paste the content of register a:
+    "ap
+
+
+
