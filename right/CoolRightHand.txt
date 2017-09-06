@@ -1,0 +1,173 @@
+# extracted from: twiddler.cfg
+#   on: Wednesday, September 6, 2017 at 05:55:00 Eastern Daylight Time
+#   What we see now is like a dim image in a mirror.
+#   VAMPIRE="042 044 038+RS 039+RS 047 048 047+RS 048+RS 054+RS  055+RS 049 056 033+RS 035+RS"
+#            BS  SP     (      )    {   }   [       ]      <       >     \   /    $      ^
+# using dido v1.0.1 by stauf        https://github.com/CoohLand/Dido
+#
+# (please edit carefully)
+#
+sticky_num=false         # Enable Stick Num Key, false=Off, true=On
+sticky_shift=false       # Enable Stick Shift Key, false=Off, true=On
+click_mode=true          # Joystick Mouse Click, false=Right-Click, true=Left-Click
+key_repeat=true          # Enable Key Repeat, false=Off, true=On
+direct_key=false         # Enable Direct Key Mode, false=Off, true=On
+bluetooth_off=false      # Disable Bluetooth Radio, false=Enabled, true=Disabled
+# --- end of options
+sleep=900                # Sleep Timeout (seconds)
+mouse_speed=10           # Mouse Acceleration Factor
+repeat_delay=100         # Key Repeat Delay (default 100)
+# --- end of settings
+mouse_mid=false          
+     0000:057                 :# Keyboard Caps Lock
+mouse_right=false        
+     0000:043                 :# Keyboard Tab
+mouse_left=false         
+     0000:String[6]:
+# --- end of header
+#                 alt  control
+#                    ||
+#               num |||| shift
+#                   ▼▼▼▼
+# Chord Format:     NACS XXXX:HHH+LCLSLALGRCRSRARG:# comment
+#                  [  chord  ] ▲ [   modifier     ]
+#                              |              LC = Left Ctrl
+#                        keycode in dec       RG = Right GUI
+#
+     L000:012                 :# Keyboard i and I
+N    L000:019+RC              :# Keyboard p and P
+     M000:008                 :# Keyboard e and E
+N    M000:034                 :# Keyboard 5 and %
+     R000:018                 :# Keyboard o and O
+N    R000:082                 :# Keyboard UpArrow
+     0L00:017                 :# Keyboard n and N
+N    0L00:017+RC              :# Keyboard n and N
+     LL00:052                 :# Keyboard ' and "
+N    LL00:075                 :# Keyboard PageUp
+     ML00:054                 :# Keyboard , and <
+     0M00:023                 :# Keyboard t and T
+N    0M00:055                 :# Keyboard . and >
+     LM00:032+RS              :# Keyboard 3 and #
+     MM00:055                 :# Keyboard . and >
+N    MM00:035                 :# Keyboard 6 and ^
+     0R00:021                 :# Keyboard r and R
+N    0R00:081                 :# Keyboard DownArrow
+     MR00:051                 :# Keyboard ; and :
+     RR00:045                 :# Keyboard - and _
+     00L0:004                 :# Keyboard a and A
+N    00L0:004+RC              :# Keyboard a and A
+     L0L0:013                 :# Keyboard j and J
+     M0R0:038+RS              :# Keyboard 9 and (
+     0LL0:009                 :# Keyboard f and F
+N    0LL0:078                 :# Keyboard PageDown
+     LLL0:005                 :# Keyboard b and B
+N    LLL0:005+RC              :# Keyboard b and B
+     MRR0:047                 :# Keyboard [ and {
+     0ML0:034+RS              :# Keyboard 5 and %
+     MMR0:047+RS              :# Keyboard [ and {
+     RML0:037+RS              :# Keyboard 8 and *
+     00M0:011                 :# Keyboard h and H
+N    00R0:080                 :# Keyboard LeftArrow
+     M0M0:015                 :# Keyboard l and L
+     0LM0:030+RS              :# Keyboard 1 and !
+     0MM0:007                 :# Keyboard d and D
+N    0MM0:007+RC              :# Keyboard d and D
+     MMM0:027                 :# Keyboard x and X
+N    MMM0:036                 :# Keyboard 7 and &
+     RMM0:040                 :# Keyboard Return (ENTER)
+     0RM0:056+RS              :# Keyboard / and ?
+     00R0:022                 :# Keyboard s and S
+N    00M0:079                 :# Keyboard RightArrow
+     L0R0:036+RS              :# Keyboard 7 and &
+     M0L0:039+RS              :# Keyboard 0 and )
+     R0R0:014                 :# Keyboard k and K
+     0MR0:045+RS              :# Keyboard - and _
+     MML0:048+RS              :# Keyboard ] and }
+     0RR0:024                 :# Keyboard u and U
+N    0RR0:021+RC              :# Keyboard r and R
+     MLL0:048                 :# Keyboard ] and }
+     RRR0:028                 :# Keyboard y and Y
+N    RRR0:041                 :# Keyboard ESCAPE
+   S RR00:045+RS              :# Keyboard - and _
+     000R:042                 :# Keyboard DELETE (Backspace)
+     L00L:006                 :# Keyboard c and C
+N    L00L:006+RC              :# Keyboard c and C
+     M00L:020                 :# Keyboard q and Q
+     L00R:056                 :# Keyboard / and ?
+     0L0L:053                 :# Keyboard ` and ~
+     LL0L:String[0]:
+     00LL:052+RS              :# Keyboard ' and "
+N    00LL:031                 :# Keyboard 2 and @
+     L0LL:029+RS              :# Keyboard z and Z
+N    L0LL:029+RC              :# Keyboard z and Z
+     M0RR:054+RS              :# Keyboard , and <
+     0LLL:029                 :# Keyboard z and Z
+N    0LLL:032                 :# Keyboard 3 and #
+     LLLL:String[1]:
+N    LLLL:033                 :# Keyboard 4 and $
+     MLLL:String[2]:
+     00MR:035+RS              :# Keyboard 6 and ^
+     000M:083                 :# Keypad Num Lock and Clear
+     L00M:006+RC              :# Keyboard c and C
+     M00M:016                 :# Keyboard m and M
+     R00M:005+RC              :# Keyboard b and B
+     0M0M:049+RS              :# Keyboard \ and |
+     MM0M:046                 :# Keyboard = and +
+     00MM:051+RS              :# Keyboard ; and :
+     M0MM:String[3]:
+N    M0MM:023+RC              :# Keyboard t and T
+     0MMM:010                 :# Keyboard g and G
+     MMMM:043                 :# Keyboard Tab
+N    MMMM:037                 :# Keyboard 8 and *
+     RMMM:String[4]:
+     000L:044                 :# Keyboard Spacebar
+     R00L:049                 :# Keyboard \ and |
+     M00R:019                 :# Keyboard p and P
+     R00R:026                 :# Keyboard w and W
+     0R0R:053+RS              :# Keyboard ` and ~
+     RR0R:046+RS              :# Keyboard = and +
+     00ML:033+RS              :# Keyboard 4 and $
+     00RR:031+RS              :# Keyboard 2 and @
+N    00RR:038                 :# Keyboard 9 and (
+     M0LL:055+RS              :# Keyboard . and >
+     R0RR:String[5]:
+N    R0RR:025+RC              :# Keyboard v and V
+     0RRR:025                 :# Keyboard v and V
+N    0RRR:039                 :# Keyboard 0 and )
+     RRRR:041                 :# Keyboard ESCAPE
+N    RRRR:030                 :# Keyboard 1 and !
+# --- end of chords
+# String[0]="I "
+012+RS              # Keyboard i and I
+044                 # Keyboard Spacebar
+# String[1]="ing "
+012                 # Keyboard i and I
+017                 # Keyboard n and N
+010                 # Keyboard g and G
+044                 # Keyboard Spacebar
+# String[2]="and "
+004                 # Keyboard a and A
+017                 # Keyboard n and N
+007                 # Keyboard d and D
+044                 # Keyboard Spacebar
+# String[3]="the "
+023                 # Keyboard t and T
+011                 # Keyboard h and H
+008                 # Keyboard e and E
+044                 # Keyboard Spacebar
+# String[4]="tion "
+023                 # Keyboard t and T
+012                 # Keyboard i and I
+018                 # Keyboard o and O
+017                 # Keyboard n and N
+044                 # Keyboard Spacebar
+# String[5]="you "
+028                 # Keyboard y and Y
+018                 # Keyboard o and O
+024                 # Keyboard u and U
+044                 # Keyboard Spacebar
+# String[6]="E~a"
+041                 # Keyboard ESCAPE
+053+RS              # Keyboard ` and ~
+004                 # Keyboard a and A
+# --- end of config
