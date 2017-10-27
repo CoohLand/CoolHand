@@ -16,7 +16,7 @@ It is a good beginner's layout. It uses symmetry to facilitate learning.  The ch
 
 ### Observations
 - **Not all chords are created equal**  
-*Take a good look at your hand. Now make a fist while curling each finger slowly with as little effort as possible. Notice the asymmetrical curve your finger tips form.*  
+*Take a good look at your hand. Now make a fist while curling each finger slowly with as little effort as possible. Notice the asymmetrical curve your fingertips form.*  
 While [`R00M`](http://twiddler.tekgear.com/doc/doku.php?id=chordnotation) is easily chordable, its mirror chord `L00M` requires significant effort.
 
 
