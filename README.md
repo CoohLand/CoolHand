@@ -28,12 +28,12 @@ For the RETURN key, it is more satisfying to chord `LMM0` than `LM00` even thoug
 Than walking the chord, holding down one button at a time. 
 
 
-- **Fast chording/typing is a subconsious activity**  
+- **Fast chording/typing is a subconscious activity**  
 With practice, the learning gets progressively pushed towards lower layers of the motor cortex. In other words, it is coded in the muscles instead of conscious memory.
 
 
 - **[Multi-Character Chords](http://twiddler.tekgear.com/doc/doku.php?id=tuner_advanced)(MMC) increase cognitive load**  
-MMCs are tantalizing because they promise to deliver speed improvement. Exessive use of bi/trigrams requires conscious context-switches. Fingers are [faster](http://www.goodreads.com/book/show/7873438-sleights-of-mind) than your attention.
+MMCs are tantalizing because they promise to deliver speed improvement. Excessive use of bi/trigrams requires conscious context-switches. Fingers are [faster](http://www.goodreads.com/book/show/7873438-sleights-of-mind) than your attention.
 
 
 
